@@ -17,6 +17,8 @@ esphome:
 
   # uncomment next line to have bulb state saved when power turns off    
   # esp8266_restore_from_flash: true
+
+  # remove next line if renaming to something unique above
   name_add_mac_suffix: true
 
   # project info can be deleted
@@ -38,7 +40,7 @@ esphome:
 wifi:
 
   # **** ENTER WI-FI CREDENTIALS HERE, USING SECRETS.YAML RECOMMENDED ****
-  ssid: initial_ap           # !secret my_wifi_ssid
+  ssid: initial_ap2          # !secret my_wifi_ssid
   password: asdfasdfasdfasdf # !secret my_wifi_pass
 
   # Uncomment below to set a static IP
